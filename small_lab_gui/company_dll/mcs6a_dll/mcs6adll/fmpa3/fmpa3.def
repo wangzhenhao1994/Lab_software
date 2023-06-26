@@ -1,0 +1,19 @@
+;*fmpa3.def
+;*Version:              NT/95 1.0
+;*Date:                 Apr-10-2001
+;*Hardware:             MPA3, SPA3
+;*Op System:	Windows NT 3.51/4.0, Windows 95 					 
+;*Compiler:		MSVC++ 4.2											 
+;*
+
+LIBRARY FMPA3
+
+SECTIONS
+        fmpa3sh		READ WRITE SHARED
+
+EXPORTS
+;       Functions in fmpa3.c
+        GetCustomForm        @2
+		CalcForm			 @3
+		CalcErr				 @4
+        SaveCustomForm       @5

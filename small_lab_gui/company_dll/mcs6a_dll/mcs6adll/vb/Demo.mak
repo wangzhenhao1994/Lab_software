@@ -1,0 +1,35 @@
+Type=Exe
+Form=FORM1.FRM
+Module=DECLMCS6; Declmcs6.bas
+IconForm="Form1"
+Startup="Form1"
+Title="MCS6 DEMO"
+ExeName32="Demo.exe"
+Command32=""
+Name="Demo"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionCompanyName="FAST ComTec"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+
+[MS Transaction Server]
+AutoRefresh=1

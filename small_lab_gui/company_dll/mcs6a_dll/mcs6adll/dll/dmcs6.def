@@ -1,0 +1,75 @@
+;*DMCS6.def
+;*Version:              NT/9x 1.0
+;*Date:                 JAN-18-2011
+;*Hardware:             MCS6A
+;*Op System:    Windows NT 4.0
+;*Compiler:		MSVC++ 4.2											 
+;*
+
+LIBRARY DMCS6
+
+SECTIONS
+                dmcs6sh READ WRITE SHARED
+
+EXPORTS
+;       Functions in dmcs6.c
+        StoreSettingData        @2
+        GetSettingData          @3
+        StoreStatusData         @4
+        GetStatusData           @5
+        Start                   @6
+        Halt                    @7
+        Continue                @8
+        NewSetting              @9
+        ServExec                @10
+        StoreData               @11
+        GetData                 @12
+        GetSpec                 @13
+        SaveSetting             @14
+        GetStatus               @15
+        Erase                   @16
+        SaveData                @17
+        GetBlock                @18
+        StoreDefData            @19
+        GetDefData              @20
+        LoadData                @21
+        NewData                 @22
+        HardwareDlg             @23
+        UnregisterClient        @24
+        DestroyClient           @25
+        ClientExec              @26
+        LVGetDat                @27
+        RunCmd                  @28
+        AddData                 @29
+        LVGetRoi                @30
+        LVGetCnt                @31
+		LVGetOneCnt				@32
+        LVGetStr                @33
+        SubData                 @34
+        Smooth                  @35
+        StoreExtSettingData     @36
+		GetExtSettingData    	@37
+        StoreMCSSetting         @38
+        GetMCSSetting           @39
+        StoreDatSetting         @40
+        GetDatSetting           @41
+        StoreReplaySetting      @42
+        GetReplaySetting        @43
+		GetDatPtr				@44
+		ReleaseDatPtr			@45
+		LVGetOneRoi				@46
+		GetSVal                 @47
+		GetDatInfo				@48
+		BytearrayToShortarray	@49
+		LedBlink				@50
+		DigInOut				@51
+        StoreCDefData           @54
+        GetCDefData             @55
+		LVGetSpecLength			@67
+		LVGetDefData		    @68
+		LVGetDatSetting			@69
+		LVGetReplaySetting		@70
+		LVGetProiDat			@71
+		LVGetRoiRect			@72
+		LVGetRroiDat			@73
+		LVGetCDefData			@74
